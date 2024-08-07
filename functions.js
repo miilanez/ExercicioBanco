@@ -41,7 +41,14 @@ const remover = () => {
 
 }
 const exibir = () => {
-
+    const numeroConta = prompt("Digite o número da conta:")
+    for (let i = 0; i < contas[i].length; i++) {
+        for (let j = 0; j < contas[j].length; j++) {
+            if(contas[i][j] === numeroConta){
+                alert(conta[i])
+            }
+        }   
+    }
 }
 const debitar = () => {
 
