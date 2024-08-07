@@ -19,7 +19,23 @@ const criarConta = () => {
 
 
 const transferir = (numero) => {
-
+    const contaDestino = parseInt(prompt("digite a conta de destino"))
+    
+    for (let i = 0; i < contas.length; i++) {
+        contas[contaDestino];
+        
+        if(!contaDestino){
+            alert("Conta não existe.")
+            return
+        }
+    }
+    const valorDaTransferencia = parseInt(prompt("Digite o valor para tranferência"))
+    if(saldo < valorDaTransferencia){
+        alert("Saldo insuficiente")
+        return
+    }
+    contaOrigem -= valorDaTransferencia
+    contaDestino += valorDaTransferencia
 }
 const remover = () => {
 
