@@ -27,6 +27,6 @@ const remover = () => {
 const exibir = () => {
 
 }
-const deletar = () => {
+const debitar = () => {
 
 }
